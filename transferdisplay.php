@@ -24,7 +24,7 @@
     <tr>
     <td><?php echo $a['t_id'] ?></td>
     <td><?php echo $a['t_name'] ?></td>
-    <td><?php echo $a['amount']?></td>
+    <td><?php echo $a['amount']?>Rs</td>
     <td><?php echo $a['c_id'] ?></td>
     <td><?php echo $a['c_name']?></td>
     </tr>

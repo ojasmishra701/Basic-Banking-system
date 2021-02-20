@@ -21,65 +21,28 @@
 .navbar
 {
    background-image: linear-gradient(to right,#61f913,#29B6F6);
-   padding: 0;    
-}
-.web-logo
-{
-  position: relative;
-  left: 18px;
-  display: none;
-  color: red;
-  
-}
-.mob-logo 
-{
-  position: relative;
-  left: 18px;
-  display: block;
-  color: red;
-}
-.navbar-nav li
-{
-	padding: 0 10px;
-	color: #fff !important;;
-	font-weight: 600;
-	float: right;
-	text-align: left;
+   padding: 0;
 }
 
 
 </style>
 </head>
 <body>
-	<nav class="navbar navbar-expand-md navbar-light">
-	
-	<h1 class="web-logo">Welcome To Our Bank</h1>  
-	<h1 class="mob-logo">Welcome To Our Bank</h1>
-
-	    <div class="collapse navbar-collapse" id="a">
-        
-        <ul class="navbar-nav ml-auto">
-
-        <li class="nav-item">
-
-        <a href="c_home.php" style="color: white;">Home</a></li>    	
+   
+   <!-- navbar start -->
+  <nav class="navbar navbar-expand-md bg-light">
+    
+      <h3 style="color: red">Welcome To Our Bank</h3>
+    <div class="ml-auto"> 
+      <a href="index.php" style="color: white">Home</a>
+      &nbsp;&nbsp;&nbsp;
+      <a href="c_display.php" style="color: white">Our Coustomers</a>
       
-        <li class="nav-item">
-
-        <a href="c_form.php" style="color: white;">Create Account</a></li>
-
-         <li class="nav-item">
-
-        <a href="c_display.php" style="color: white;">Our Customers</a>
-
-       
-       </ul> 
-</div>
-
-</nav>
-<!-- navbar end -->
-
-<img src="https://cdn.pixabay.com/photo/2015/08/01/21/03/euro-870757__340.jpg" class="w-100" style="height: 600px;">
+    </div>
+  </nav>
+	
+<!-- navbar end-->
+<img src="https://cdn.pixabay.com/photo/2015/08/01/21/03/euro-870757__340.jpg" class="w-100" style="height: 625px;">
 
 <div class="container-fluid" style="height:100px; background-image: linear-gradient(to right,#61f913,#29B6F6);">
   <div class="row">
